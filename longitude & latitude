@@ -1,0 +1,22 @@
+my_city = ('new york',)
+
+jose_city = ('st.Louis', '38°37′38″N 90°11′52″W')
+
+nathaniel = ('houston','29°45′46″N 95°22′59″W')
+
+alex = ('chicago', '41°52′55″N 87°37′40″W' )
+longtitude = ("",)
+print(jose_city[0],"" + "", nathaniel[0], "" + "", alex[0] )
+
+alex = '41°52′55″N 87°37′40″W'
+nathaniel = '38°37′38″N 90°11′52″W'
+jose = '29°45′46″N 95°22′59″W'
+terror = 'st.louis'
+mount = 'chicago'
+take = 'houston'
+
+append_city = my_city + (take,) + (mount,) + (terror,)
+print(append_city)
+apppend_longtitude = longtitude + (alex,) + (nathaniel,) + (jose,)
+print(apppend_longtitude)
+print(max(apppend_longtitude))
